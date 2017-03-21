@@ -4,7 +4,8 @@ The project is born out of constant frustration with certain communities and
 their quips that they have functional features, or that there is some new
 library that solves all of their problems by doing something `functional`.  The
 PHP community seems especially prone to this sort of misinformation, which is 
-why this project targets that taudry language.
+why this project targets that taudry language.  It is also somewhat related to 
+the diatribe on the same topic in my [Peave About Map, Reduce and People Who Talk About 'The Functional Style'](https://github.com/ColinShaw/peave-map-reduce) repo.
 
 In being reminded of the overwhelming interest in `the functional style`,
 I decided to create something as close as possible to a functional DSL in 
