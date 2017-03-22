@@ -29,7 +29,9 @@ it isn't really PHP, it is a new mini-language that is LISP-like.  Please take
 this code and spread it to the wind, help educate people about some of the 
 things that are special about functional programming, and have fun
 with it.  You might find the [notes](https://docs.google.com/presentation/d/1IEFzjppa1-UlqauOotJmVs2B4lT5xVit4Ziwq3v8zPQ/pub) 
-from a presentation I gave helpful. 
+from a presentation I gave helpful.  Or you might want to read more about function
+programming, perhaps starting from one of the fine resources I have listed in
+[this repo](https://github.com/ColinShaw/functional-programming-resources).
 
 No, it isn't really `functional`, in that we don't really have true first-class
 or higher-order functions.  Yes, it is `functional` in that the list 
