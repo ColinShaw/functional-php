@@ -20,7 +20,7 @@ so to code up, and a few functions that gives it a nudge in the
 direction of looking like function evaluation rather than objects.  The 
 normal cadre of basic list functions are implemented, including `map`
 in tail-recursive form.  You might note the use of `nil` for the empty 
-list.  That is `empty` is not possible in PHP since it is as built-in 
+list.  That is because `empty` is not possible in PHP since it is as built-in 
 function.  Not only is `null` not possible since it is a PHP type, but 
 it isn't the correct form of the word for an empty element anyway, nil 
 is.  Please take this code and spread it to the wind,
