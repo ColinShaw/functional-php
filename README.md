@@ -40,7 +40,17 @@ programming, perhaps starting from one of the fine resources I have listed in
 No, it isn't really `functional`, in that we don't really have true first-class
 or higher-order functions.  Yes, it is `functional` in that the list 
 processing generates the proper algebra for provable computation.  Both of these
-are important aspects of a true functional language.  The limitation here isn't 
-that we can use the host language to define the requisite operations for the
-algebra, but that we don't have the ability to handle functions `as values` as
-we would with a true functional language.
+are important aspects of a true functional language, but we do what we can.  Half of the 
+problem can be solved with data structures that generally can be implemented in 
+any language, the other half of the problem is significantly more intrinsic to the the 
+language in question.  The limitation here isn't that we can't use the host language 
+to define the requisite operations for the algebra, but that we don't have the 
+ability to handle functions `as values` as we would with a true functional language.
+
+Next time you hear someone talking about using `the functional style` or some such 
+nonesense, please correct them.  Unless you are using a language that is pass by 
+value and you have the structures in place with respect to lists to generate a particular
+algebra, you are actually talking about the idea of getting indexing out of indexed 
+operations.  While that is a big improvement in terms of reducing human error, it bears 
+almost no resemblance to functional programming other than borrowing some of the operator
+names.  
